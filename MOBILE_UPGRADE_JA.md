@@ -87,12 +87,13 @@ v1.0.0 APKの署名証明書SHA-256は
 Actionsの「Build unsigned iOS IPA」を手動実行するか、`v*`タグをpushすると、macOS 15 / Xcodeで
 `VRCX-Mobile-iOS-v2.0.0-unsigned.ipa` とSHA-256ファイルがArtifactに保存されます。
 
-このフォルダはGitリポジトリではなくGitHub認証設定もないため、ワークフローのリモート実行は行っていません。
+独立した非公開リポジトリ `axcyum/VRCX-Mobile-v2.0.0` で実行し、未署名IPAの生成に成功しました。
+本リポジトリはforkではなく、本家VRCXのremote・parent・Workflowは登録していません。
 生成されるIPAは未署名です。インストール前に自身のApple IDまたは証明書で署名してください。
 
 ## 未検証・既存の制限
 
-- APKはWindows上で生成しました。IPAはGitHub Actions用ワークフローを作成しましたが、リモート実行は未実施です。
+- APKはWindows上で生成しました。IPAはGitHub Actions run `35887913777` で生成・ダウンロードし、SHA-256を照合しました。
 - 実機でのログイン、v1.0.0 からのデータ移行、新しい画面の操作は未確認です。回帰テストのネイティブ API はモックです。
 - iOS の SQLite は元版から未接続です。設定・保存ログインは Preferences を使いますが、SQLite に依存するローカル履歴・お気に入りなどには従来の制限が残ります。
 - Desktop / VR 連携のネイティブ機能は、元モバイル版と同じく未実装のものがあります。
