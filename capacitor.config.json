@@ -1,0 +1,18 @@
+{
+  "appId": "app.vrcx.android",
+  "appName": "VRCX",
+  "webDir": "build/html",
+  "ios": {
+    "includePlugins": [
+      "@capacitor/preferences"
+    ]
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "CapacitorCookies": {
+      "enabled": true
+    }
+  }
+}

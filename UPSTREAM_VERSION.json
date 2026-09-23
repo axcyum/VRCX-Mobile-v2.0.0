@@ -1,0 +1,12 @@
+{
+  "mobileVersion": "2.0.0",
+  "upstreamVersion": "2026.09.16",
+  "upstreamRepository": "https://github.com/vrcx-team/VRCX",
+  "upstreamTag": "v2026.09.16",
+  "upstreamCommit": "1bf052f84c670b96bfe44156e097eb668ae78de7",
+  "previousSourceFolder": "VRCX-Mobile-Source-v1.0.0",
+  "previousVersionFile": "2026.02.11",
+  "comparisonBaseCommit": "1a7f9ca95274e33b2ec64336a2a3bfc1f435376f",
+  "comparisonBaseNote": "Closest matching upstream tree (1158 identical files); used to separate 67 mobile-modified files from upstream changes.",
+  "updatedAt": "2026-09-24"
+}
