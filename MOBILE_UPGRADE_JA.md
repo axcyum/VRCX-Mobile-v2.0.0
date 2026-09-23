@@ -93,7 +93,7 @@ Actionsの「Build unsigned iOS IPA」を手動実行するか、`v*`タグをpu
 
 ## 未検証・既存の制限
 
-- APKはWindows上で生成しました。IPAはGitHub Actions run `35887913777` で生成・ダウンロードし、SHA-256を照合しました。
+- APKはWindows上で生成しました。IPAはGitHub Actions run `35888326460` で生成・ダウンロードし、SHA-256を照合しました。
 - 実機でのログイン、v1.0.0 からのデータ移行、新しい画面の操作は未確認です。回帰テストのネイティブ API はモックです。
 - iOS の SQLite は元版から未接続です。設定・保存ログインは Preferences を使いますが、SQLite に依存するローカル履歴・お気に入りなどには従来の制限が残ります。
 - Desktop / VR 連携のネイティブ機能は、元モバイル版と同じく未実装のものがあります。
